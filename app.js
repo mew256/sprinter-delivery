@@ -33,3 +33,7 @@ if (document.getElementById("address")) {
   const d = JSON.parse(localStorage.getItem("currentDelivery"));
   document.getElementById("address").innerText = d.address;
 }
+
+git add .
+git commit -m "Trigger Netlify deploy"
+git push
