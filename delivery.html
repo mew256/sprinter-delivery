@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>Delivery Details</header>
+
+  <main class="card">
+    <p id="address"></p>
+
+    <select id="status">
+      <option>Pending</option>
+      <option>Picked Up</option>
+      <option>Delivered</option>
+      <option>Issue</option>
+    </select>
+
+    <textarea id="notes" placeholder="Notes"></textarea>
+
+    <button onclick="saveDelivery()">Save</button>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
